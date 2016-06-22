@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<rhythmdb-playlists>
+  <playlist name="My Top Rated" show-browser="true" browser-position="644" search-type="search-match" type="automatic" sort-key="Rating" sort-direction="1">
+    <conjunction>
+      <equals prop="type">song</equals>
+      <subquery>
+        <conjunction>
+          <greater prop="rating">4.000000</greater>
+        </conjunction>
+      </subquery>
+    </conjunction>
+  </playlist>
+  <playlist name="Recently Added" show-browser="true" browser-position="644" search-type="search-match" type="automatic" sort-key="FirstSeen" sort-direction="1">
+    <conjunction>
+      <equals prop="type">song</equals>
+      <subquery>
+        <conjunction>
+          <current-time-within prop="first-seen">604800</current-time-within>
+        </conjunction>
+      </subquery>
+    </conjunction>
+  </playlist>
+  <playlist name="Recently Played" show-browser="true" browser-position="644" search-type="search-match" type="automatic" sort-key="LastPlayed" sort-direction="1">
+    <conjunction>
+      <equals prop="type">song</equals>
+      <subquery>
+        <conjunction>
+          <current-time-within prop="last-played">604800</current-time-within>
+        </conjunction>
+      </subquery>
+    </conjunction>
+  </playlist>
+  <playlist name="Athens 2002" show-browser="true" browser-position="514" search-type="search-match" type="static">
+    <location>file:///mnt/Took-Hall/mp3/M/Matthew%20Sweet%20-%20Where%20You%20Get%20Love.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/0-A/Alanis%20%20Morissette%20-%20Hands%20Clean.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/J-K/Jane's%20Addiction%20-%20Classic%20Girl.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/J-K/Jam,%20The%20-%20The%20Bitterest%20Pill.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/0-A/Amps,%20The%20-%20Pacer.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/B/Breeders,%20The%20-%20Cannonball.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/B/Buffalo%20Tom%20-%20Summer.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/T/Talking%20Heads%20-%20This%20Must%20Be%20The%20Place%20(Naive%20Melody).mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/H-I/Hunters%20&amp;%20Collectors%20-%20Throw%20Your%20Arms%20Around%20Me.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/G/Guns%20N'%20Roses%20-%20Sweet%20Child%20O'%20Mine%20(LP%20Version).mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/L/Luscious%20Jackson%20-%20Citysong.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/L/La's,%20The%20-%20There%20She%20Goes.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/C/Clash,%20The%20-%20Rudy%20Can't%20Fail.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/F/Frank%20Black%20&amp;%20The%20Catholics%20-%20Smoke%20Up.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/L/Led%20Zeppelin%20-%20Tangerine.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/P/Primitive%20Radio%20Gods%20-%20Standing%20Outside.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/P/Peter%20Murphy%20-%20Indigo%20Eyes.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/G/Guadalcanal%20Diary%20-%20Trail%20Of%20Tears.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/Sm-Sz/Sundays%20-%20Goodbye.mp3</location>
+  </playlist>
+  <playlist name="Fall 2013" show-browser="true" browser-position="131" search-type="search-match" type="static">
+    <location>file:///mnt/Took-Hall/mp3/M/Mary%20Black%20-%20The%20Loving%20Time.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/U-Z/Vienna%20Teng%20-%20Anna%20Rose.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/L/Lunasa%20-%20Glentrasna.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/M/Mary%20Black%20-%20The%20Fog%20In%20Monterey.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/N-O/Matt%20Nathanson%20-%20Come%20On%20Get%20Higher.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/F/Five%20for%20Fighting%20-%20Superman%20(It's%20Not%20Easy)%20(New%20Album%20Version).mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/Sm-Sz/String%20Sisters%20-%20The%20Fly%20And%20Dodger.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/P/Pogues,%20The%20-%20Lorcas%20Novena</location>
+    <location>file:///mnt/Took-Hall/mp3/T/Tori%20Amos%20-%20A%20Sorta%20Fairytale%20(Album%20Version).mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/L/Led%20Zeppelin%20-%20Tangerine.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/M/Mazzy%20Star%20-%20Take%20Everything.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/L/Led%20Zeppelin%20-%20Over%20The%20Hills%20And%20Far%20Away.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/M/Mazzy%20Star%20-%20Look%20On%20Down%20From%20The%20Bridge.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/G/Groove%20Armada%20-%20Hands%20Of%20Time.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/P/Pat%20Metheny%20Group,%20The%20-%20San%20Lorenzo.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/T/Tori%20Amos%20-%20Taxi%20Ride.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/C/Cerulean%20-%20Questions%20Of%20Travel%20(LP%20Version).mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/U-Z/William%20Tyler%20-%20Missionary%20Ridge.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/Sm-Sz/Steve%20Earle%20-%20Lonelier%20Than%20This.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/T/Thulla-Where%20Ur%20Buddha%20Live.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/F/Five%20for%20Fighting%20-%20100%20Years.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/0-A/Angels%20and%20Airwaves%20-%20Rite%20Of%20Spring.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/C/Cerulean%20-%20Ballerina%20Out%20Of%20Control%20(LP%20Version).mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/P/Pink%20-%20Try.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/M/Mazzy%20Star%20-%20Flowers%20In%20December.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/P/Pink%20-%20Just%20Give%20Me%20a%20Reason.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/U-Z/Yo%20La%20Tengo%20-%20Drug%20Test.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/M/Martyn%20Bennett%20-%20Blackbird.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/Sm-Sz/Stevey%20Nicks%20-%20Leather%20And%20Lace.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/P/Pearl%20Jam%20-%20Release.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/D/Dixie%20Chicks%20-%20Landslide%20(Album%20Version)%20.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/D/Dixie%20Chicks%20-%20Travelin'%20Soldier%20(Album%20Version)%20.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/C/Cerulean%20-%20Cerulean%20(LP%20Version).mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/C/Cerulean%20-%20Marigold%20(LP%20Version).mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/C/Cerulean%20-%20Mercury%20(LP%20Version).mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/M/Mazzy%20Star%20-%20Disappear.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/M/Mazzy%20Star%20-%20Cry,%20Cry.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/M/Mazzy%20Star%20-%20Ive%20Been%20Let%20Down.mp3</location>
+    <location>file:///mnt/Took-Hall/mp3/T/Tom%20Waits%20-%20Never%20Let%20Go.mp3</location>
+  </playlist>
+  <playlist name="Play Queue" show-browser="false" browser-position="180" search-type="search-match" type="queue"/>
+</rhythmdb-playlists>

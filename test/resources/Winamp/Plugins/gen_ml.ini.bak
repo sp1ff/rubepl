@@ -1,0 +1,58 @@
+[gen_ml_config]
+reindex_561=1
+view_autoadd_pos=1
+query1_name_utf8=Audio
+query1_val_utf8=type = 0
+query1_mode=1
+query1_meta=met5B86.vmd
+query1_image=101
+query2_name_utf8=Video
+query2_val_utf8=type = 1
+query2_mode=0
+query2_meta=met6B58.vmd
+query2_image=102
+query3_name_utf8=Most Played
+query3_val_utf8=playcount > 0
+query3_mode=0
+query3_meta=met5B95.vmd
+query3_image=103
+query4_name_utf8=Recently Added
+query4_val_utf8=lastupd > [3 days ago]
+query4_mode=0
+query4_meta=met6B67.vmd
+query4_image=104
+query5_name_utf8=Recently Played
+query5_val_utf8=lastplay > [2 weeks ago]
+query5_mode=0
+query5_meta=met7B39.vmd
+query5_image=105
+query6_name_utf8=Never Played
+query6_val_utf8=playcount = 0 | playcount isempty
+query6_mode=0
+query6_meta=met8B0B.vmd
+query6_image=106
+query7_name_utf8=Top Rated
+query7_val_utf8=rating >= 3
+query7_mode=0
+query7_meta=met9ADD.vmd
+query7_image=107
+query_num=7
+visible=1
+last_view=Local Media/Audio
+ldivpos=135
+mlv10_01=nowplaying_svc_101,0,1
+mlv10_02=Local Media,0,2
+mlv10_03=Playlists,0,3
+mlv10_04=addons_svc_102,0,4
+mlv10_05=om_svc_777,0,5
+mlv10_06=podcast_svc_720,0,6
+mlv10_07=ml_devices_root,0,7
+mlv10_08=Bookmarks,0,8
+mlv10_09=History,0,9
+mlv10_10=_ml_disc_F,0,10
+mlv10_count=10
+mw_xpos=301
+mw_ypos=29
+mw_width=637
+mw_height=710
+lastprefp=0
